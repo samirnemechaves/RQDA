@@ -1,0 +1,5 @@
+install.packages("devtools") ## install it only if you haven't done it yet / Instalar devtools 
+require(devtools)
+devtools::install_github("Ronggui/RQDA")
+library(RQDA)#Load RQDA package / cargar paquete RQDA
+RQDA() # Start RQDA / Iniciar paquete RQDA
